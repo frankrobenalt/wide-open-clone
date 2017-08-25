@@ -1,0 +1,185 @@
+* {
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    width: 100%;
+}
+
+header {
+    height: 80px;
+    padding: 20px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+#head-container {
+    width:80vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: ;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+a {
+    font-family: oswald;
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+    border-bottom: solid 5px transparent;
+}
+a:hover {
+    border-bottom: solid 5px #C8E23A;
+
+}
+#header-image {
+background-image: url("./wideopen-icons/img/wot-masthead-dark.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 600px;
+}
+.head-image {
+    height:40px;
+    width: 250px;
+}
+#text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 05% 0 0 0;
+    font-family: oswald;
+    color: white;
+    text-align: center;
+    width: 800px;
+    position: relative;
+    margin-bottom: 5%;
+    
+}
+h3 {
+    width: 475px;
+    font-size: 25px;
+}
+.below {
+    display: flex;
+    justify-content: space-around;
+}
+.line-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    font-size: 25px;
+    color: #ff803a;
+}
+h5{
+    font-size: 25px; 
+       color: #BDD436;
+}
+span {
+    background-color: white;
+    height: 10px;
+    width: 250px;
+    /* margin-top: 15px; */
+}
+
+#text-box p {
+    align-self: flex-start;
+    text-align: left;
+    font-size: 3rem;
+    margin:0px;
+}
+#text-box div {
+    font-size: 10rem;
+    margin-top:0px;
+    padding:0;
+}
+#learn-more {
+    
+    width: 600px;
+    margin-bottom: 1%;
+}
+button {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #bdd436;
+    border-radius: 12px;
+    margin-left: 33%;
+}
+#how-it-works {
+    height: 380px;
+    background-color: rgba(240, 240, 240, 0.75);
+    color: rgba(69, 67, 67, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 30px;
+    margin: auto;
+    position: relative;
+}
+#how-it-works p{
+    margin:50px;
+}
+#shittygarbagelogo {
+    height: 100px;
+    width:100px;
+    position: relative;
+    overflow: hidden;
+}
+#garbagelogo {
+    position: absolute;
+    top: -100px;
+    left:-10px;
+}
+#hhiw {
+    font-family: oswald;
+}
+
+@media (max-width : 900px) {
+
+    ul {
+        display: none;
+    }
+
+#small {
+    height: 20px;
+    width: 20px;
+    border: solid 1px white;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+button {
+    color: white;
+    padding: 15px 250px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #bdd436;
+    border-radius: 25px;
+    margin-left: 5%;
+}
+
+}
